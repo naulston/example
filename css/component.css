@@ -1,11 +1,6 @@
 /*!
- * Transition - vCard Theme
- *
- * Copyright 2013 
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
- * Created by: Carlos Alvarez
- * URL: http://www.basicoh.com
  * Designed and built based on Twitter Bootstrap.
  * Tags: multipurpose, agency theme, one page, single page, responsive, flat */
 
@@ -54,8 +49,33 @@ a {
 a:hover {
 	color: #fff;
 }
+a:link,a:visited,.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	color:#968766;
+}
+.spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay {
+background: #968766;
+}
 
-.container { height: 100%; }
+.spacer {
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    color: #968766;
+}
+
+.container { height: 100%;
+}
+
+.left { float:left; width:50%;
+}
+.right { float:right; width:50%;
+}
+
+.col-md-left {float: left; width:33.333333333%;
+}
 
 .bl-main {
 	position: absolute;
@@ -201,8 +221,8 @@ div.bl-panel-items > div > div {
 
 .bl-content p {
 	margin: 0 auto;
-	padding-bottom: 15px;
-	font-size: 1.7em;
+	padding-bottom: 10px;
+	font-size: 1.3em;
 	line-height: 1.8;
 }
 
@@ -212,8 +232,14 @@ div.bl-panel-items > div > div {
 	margin: 0 0 20px 0;
 }
 
+.bl-content h3 {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+	color: #2C2C2C;
+}
 .bl-content article {
-	padding: 20px 40px 20px 0px;
+	padding: 0px 40px 20px 0px;
 }
 
 .bl-content article h3 {
@@ -221,8 +247,9 @@ div.bl-panel-items > div > div {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 1.4em;
+	color: #968766;
 }
 
 .bl-content article a {
@@ -344,6 +371,7 @@ div.bl-panel-items > div > div p {
 div.bl-panel-items > div > div img {
 	width: 100%;
 	text-align: center;
+	height: 100%;
 }
 
 div.bl-panel-items {
