@@ -478,10 +478,10 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #2c2c2c;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #ee6557;
+	background: rgba(225, 196, 69, 0.91);
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #bfbfbf;
+	background: rgba(239, 233, 233, 0.39);
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
