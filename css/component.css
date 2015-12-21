@@ -230,12 +230,13 @@ div.bl-panel-items > div > div {
 	font-size: 3em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
+	text-align: center;
 }
 
 .bl-content h3 {
 	font-size: 3em;
 	font-weight: 300;
-	margin: 0 0 20px 0;
+	margin: 0 0 0px 0;
 	color: #2C2C2C;
 }
 .bl-content article {
@@ -321,7 +322,7 @@ div.bl-panel-items > div > div {
 .about-us h3{
   font-size:16px;
   color:#c9ab8b;
-  padding-bottom:10px;
+  padding-bottom:0px;
 }
 
 .about-us i{
@@ -545,7 +546,7 @@ margin: 0 auto -em;
 
 .footer, .push {
 height: em;
-background: rgba(254,181,255,0.4);
+background: rgba(182,184,188,0.8);
 padding-bottom: 2px;
 position: fixed;
 bottom: -75px;
