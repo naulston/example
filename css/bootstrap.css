@@ -99,8 +99,8 @@ sub {
 }
 
 img {
-  width: 260px;
-  height: 122px;
+  /*width: 260px;
+  height: 122px;*/
   max-width: 100%;
   vertical-align: middle;
   border: 0;

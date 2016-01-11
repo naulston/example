@@ -69,7 +69,7 @@ background: #968766;
 .container { height: 100%;
 }
 
-.left { float:left; width:50%;
+.left { float:left; width:50%; margin-top: 0%;
 }
 .right { float:right; width:50%;
 }
@@ -354,8 +354,8 @@ div.bl-panel-items > div {
 div.bl-panel-items > div > div {
 	width: 100%;
 	opacity: 1;
-	bottom: 90px;
-	top: 90px;
+	bottom: 14%;
+	top: 3%;
 	pointer-events: auto;
 }
 
