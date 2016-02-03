@@ -76,7 +76,8 @@ background: #968766;
 
 .col-md-left {float: left; width:33.333333333%;
 }
-
+.col-md-right {float: none; width:33.333333333%;
+}
 .bl-main {
 	position: absolute;
 	width: 100%;
