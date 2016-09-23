@@ -227,6 +227,13 @@ div.bl-panel-items > div > div {
 	line-height: 1.8;
 }
 
+.bl-content h4 {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+	line-height: 1.8;
+	color:#2C2C2C;
+}
 .bl-content h2 {
 	font-size: 3em;
 	font-weight: 300;
