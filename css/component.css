@@ -222,14 +222,14 @@ div.bl-panel-items > div > div {
 
 .bl-content p {
 	margin: 0 auto;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	font-size: 1.3em;
 	line-height: 1.8;
 }
 
 .bl-content h4 {
 	margin: 0 auto;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	font-size: 1.3em;
 	line-height: 1.8;
 	color:#2C2C2C;
