@@ -828,6 +828,11 @@ li {
   line-height: 20px;
 }
 
+
+ body {
+   counter-reset: item;
+ }
+
  ol {
    list-style: none;
  }
