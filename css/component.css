@@ -239,6 +239,7 @@ div.bl-panel-items > div > div {
 	font-weight: 300;
 	margin: 0 0 20px 0;
 	text-align: center;
+	color: black;
 }
 
 .bl-content h3 {
@@ -253,16 +254,18 @@ div.bl-panel-items > div > div {
 
 .bl-content article h3 {
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
 	padding-top: 10px;
 	font-size: 1.4em;
 	color: #968766;
+	text-decoration: underline;
 }
 
 .bl-content article a {
-	color: rgba(0,0,0,0.2);
+	color: #968766;
+	font-size: .9em;
 }
 
 .bl-content > ul {
