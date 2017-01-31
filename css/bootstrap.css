@@ -828,6 +828,15 @@ li {
   line-height: 20px;
 }
 
+ ol {
+   list-style: none;
+ }
+
+ li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+
  li:before {
    margin-right: 10px;
    content: counter(item);
