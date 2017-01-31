@@ -828,9 +828,10 @@ li {
   line-height: 20px;
 }
 
-
  ol {
    list-style: none;
+   list-style-type:decimal;
+   list-style-position:outside;
  }
 
  li {
