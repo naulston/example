@@ -829,10 +829,6 @@ li {
 }
 
 
- body {
-   counter-reset: item;
- }
-
  ol {
    list-style: none;
  }
