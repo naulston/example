@@ -782,6 +782,7 @@ h4 {
 h5 {
   font-size: 14px;
   color: #474747;
+  padding-bottom: 20px;
 }
 
 h6 {
@@ -826,6 +827,15 @@ ol ul {
 li {
   line-height: 20px;
 }
+
+ li:before {
+   margin-right: 10px;
+   content: counter(item);
+   color: #968766;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+ }
 
 ul.unstyled,
 ol.unstyled {
